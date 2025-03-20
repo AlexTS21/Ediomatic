@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:"Source Code Pro", monospace;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffab06;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.menu a {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.menu_opciones{
+    float: left;
+}
+
+.menu a:hover {
+   transform: scale(1.1);
+}
+
+.page {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.botones-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto; /* Push container to the right */
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+.search-icon {
+    width: 35px; /* Adjust size as needed */
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 2px;
+}
+
+.search-input {
+    width: 0;
+    opacity: 0;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #ffab06;
+    margin-right: 2px;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.search-container.active .search-input {
+    width: 150px; /* Adjust width as needed */
+    opacity: 1;
+    border-bottom: 1px solid black;
+}
+  
+
+.circle-btn {
+    width: 40px; 
+    height: 40px;
+    border: solid #1d1d1d 1px;
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+  
+.circle-btn:hover {
+    transform: scale(1.1); 
+}
+
+
+#aleman-btn{ background-image: url('src/german-flag.jpeg');}
+#ingles-btn{ background-image: url('src/british-falg.png');}
+
+#idiomas { background: green; }
+#modalidades { background: blue; }
+
