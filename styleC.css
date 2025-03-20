@@ -1,4 +1,10 @@
 @media (max-width: 1100px) {
+    .container{
+        height: 100%;
+        overflow-y:scroll;
+        scroll-snap-type: y mandatory;
+
+    }
     .menu {
         height: 60px;
         flex-direction: column;
@@ -40,5 +46,61 @@
     }
     .page{
         padding-top: 60px;
+        scroll-snap-align: start;
+   
+    }
+    /*Titulos--------------------------------------------------------*/
+    .titulo-pg3, .titulo-pg5{
+        padding-bottom: 5vh;
+    }
+    
+    /*Nosotos pagina------------------------------------------------*/
+    #nosotros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont-pg2{
+        padding: 50px;
+    }
+    
+    #cont-izq-pg2{
+        width: 100%;
+        height: 65%;
+    }
+    
+    #cont-der-pg2{
+        height: 35%;
+        width: 100%;
+        background-color: #fff;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius:0%;
+    }
+
+    .img2-pg2{
+        width: 80%;
+        padding: 0;
+       
+    }
+
+    .img1-pg2{
+        width: 80%;
+      padding-right: 10%;
+      padding-bottom: 10%;
+       
+    }
+
+    /*Idiomas pagina_------------------------------------------------------------*/
+    .image-pg3{
+        margin-bottom: 10px;
+    }
+
+    
+    /*Historias pagina---------------------------------------------------------------*/
+
+    .carousel-item{
+        font-size: 1rem;
+        text-align: center;
     }
 }   
