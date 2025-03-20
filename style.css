@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    height:max-content;
+}
 body {
     font-family:"Source Code Pro", monospace;
+    height:100%;
 }
 .menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 50px;
     background: #ffab06;
     padding: 10px 0;
     display: flex;
@@ -39,14 +45,13 @@ body {
 }
 
 .page {
-    height: 100vh;
+    height: inherit;
     padding-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     font-size: 24px;
-    font-weight: bold;
     color: white;
+   
 }
 
 .menu-toggle{
@@ -64,7 +69,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-  }
+}
 
 .search-icon {
     width: 35px; /* Adjust size as needed */
@@ -92,7 +97,6 @@ body {
     border-bottom: 1px solid black;
 }
   
-
 .circle-btn {
     width: 40px; 
     height: 40px;
@@ -104,16 +108,89 @@ body {
     transition: transform 0.2s ease-in-out;
 }
 
-
-  
 .circle-btn:hover {
     transform: scale(1.1); 
 }
 
-
 #aleman-btn{ background-image: url('src/german-flag.jpeg');}
 #ingles-btn{ background-image: url('src/british-falg.png');}
 
-#idiomas { background: green; }
+/*--------------------------------------PAGINAS--------------------------------------------------------*/
+
+
+/*Idiomasss pagina--------------------------------------------------------------------------------------*/
+#idiomas { 
+    background:#ffde59; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline ;
+    color: #1d1d1d;
+}
+.titulo-pg3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 3vh;
+    padding-left: 5vh;
+    width: 100%;
+}
+
+.cont-pg3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.cont-pg3{
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.idioma-pg3 {
+    width: 30%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.image-pg3 {
+    width: 100px;
+    height: 100px;
+    background-size: cover; 
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+#aleman-pg3{
+    background-image: url("src/german-flag.jpeg");
+}
+
+
+#ingles-pg3{
+    background-image: url("src/british-falg.png");
+}
+
+#espanol-pg3{
+    background-image: url("src/mexico-flag.jpeg");
+}
+
+.text-pg3 {
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #333;
+}
+
+
+/*Modalidaes pagina-------------------------------------------------------------------------------------*/
 #modalidades { background: blue; }
+
+
 
