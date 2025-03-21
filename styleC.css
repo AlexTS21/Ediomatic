@@ -58,9 +58,20 @@
         padding-bottom: 5VH;
     }
     /*Nosotos pagina------------------------------------------------*/
-    #nosotros, #grupal{
+    #nosotros, #grupal, #indivudual-online{
         display: flex;
         flex-direction: column;
+    }
+    .titulo-pg5{
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .cont-pgp{
+        height: 100%;
+        padding-bottom: 20px;
     }
 
     .cont-plc{
@@ -111,5 +122,9 @@
     .carousel-item{
         font-size: 1rem;
         text-align: center;
+    }
+
+    .carousel-container{
+        margin-top: 20px;
     }
 }   
