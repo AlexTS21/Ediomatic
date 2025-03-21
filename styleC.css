@@ -54,22 +54,26 @@
         padding-bottom: 5vh;
     }
     
+    .titulo-pg2{
+        padding-bottom: 5VH;
+    }
     /*Nosotos pagina------------------------------------------------*/
-    #nosotros{
+    #nosotros, #grupal{
         display: flex;
         flex-direction: column;
     }
 
-    .cont-pg2{
+    .cont-plc{
         padding: 50px;
     }
     
-    #cont-izq-pg2{
+    #cont-izq-plc{
+        align-items: center;
         width: 100%;
         height: 65%;
     }
     
-    #cont-der-pg2{
+    #cont-der-plc{
         height: 35%;
         width: 100%;
         background-color: #fff;
@@ -94,6 +98,11 @@
     /*Idiomas pagina_------------------------------------------------------------*/
     .image-pg3{
         margin-bottom: 10px;
+    }
+
+    /*Grupal-------------------------------------------------------------------------------*/
+    #txt-pg{
+        text-align: center;
     }
 
     
