@@ -73,10 +73,33 @@
 
     .cont-imgl{
         width: 100%;
-        background-color: aquamarine;
+
         align-items: center;
         display: flex;
         justify-content: center;
+    }
+    .col-left{
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .circcle-down-pg1{
+        margin-top: 20px;
+        width: 100%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        padding: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    #prom{
+        align-items: center;
+        text-align: center;
+        padding: 0;
     }
 
     #cont-btF{
@@ -87,8 +110,18 @@
         justify-content: center;
     }
 
-    .cont-imgP-pg1{
+    .col-left{
         width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .col-right{
+        background-color: aqua;
+        width: 100%;
+    }
+    .responsive-img {
+        min-width: 300px; /* Make image adapt on smaller screens */
+        height: auto;
     }
 
 
