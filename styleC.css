@@ -57,6 +57,41 @@
     .titulo-pg2{
         padding-bottom: 5VH;
     }
+
+    /*Inicio*/
+
+    .cont-pg1{
+        height: 100%;
+    }
+
+    .row-up>a{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .cont-imgl{
+        width: 100%;
+        background-color: aquamarine;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #cont-btF{
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-imgP-pg1{
+        width: 100%;
+    }
+
+
     /*Nosotos pagina------------------------------------------------*/
     #nosotros, #grupal, #indivudual-online{
         display: flex;
@@ -76,6 +111,13 @@
 
     .cont-plc{
         padding: 50px;
+    }
+
+    .cont-plcS{ 
+        display: flex;
+        align-items: center;
+        justify-content: centerx;
+        padding: 0;
     }
     
     #cont-izq-plc{
@@ -99,12 +141,22 @@
        
     }
 
+    .imgS-pg2{
+        width: 60%;
+        padding: 0;
+        align-items:flex-end;
+        display: flex;
+        justify-content: center;
+    }
+
     .img1-pg2{
         width: 80%;
-      padding-right: 10%;
-      padding-bottom: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
        
     }
+
+
 
     /*Idiomas pagina_------------------------------------------------------------*/
     .image-pg3{
