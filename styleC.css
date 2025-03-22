@@ -82,7 +82,7 @@
         margin-top: 20px;
         align-items: center;
     }
-    
+
     .circcle-down-pg1{
         margin-top: 20px;
         width: 100%;
@@ -97,9 +97,11 @@
     }
 
     #prom{
+        padding: 10%;
         align-items: center;
         text-align: center;
-        padding: 0;
+        width: 100%;
+        
     }
 
     #cont-btF{

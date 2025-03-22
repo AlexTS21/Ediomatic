@@ -219,6 +219,9 @@ body {
 #text-com-pg1>b{
     font-size: 2rem;
 }
+#prom{
+    padding-right: 15%;
+}
 
 .circcle-down-pg1{
     height: 55%;
