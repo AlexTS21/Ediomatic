@@ -203,6 +203,61 @@
         text-align: center;
     }
 
+
+    /*individual_presencial ----------------------------------------------------------------*/
+
+    #individual_presen{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+    
+    #left_ip{
+        width: 100%;
+    }
+
+    #title_ip{
+        width: 100%;
+        padding: 0;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      
+    
+    }
+
+    #content_ip{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+       
+    }
+    #content_ip >a{
+        text-align: center;
+    }
+
+    #right_ip{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-container{
+        width: 300px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
     
     /*Historias pagina---------------------------------------------------------------*/
 

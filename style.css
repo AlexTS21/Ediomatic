@@ -616,7 +616,6 @@ body {
     width: 30%;
     height: 100%;
     overflow: hidden;
-    background-color: yellow;
 }
 
 
@@ -630,6 +629,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
   }
 
 
