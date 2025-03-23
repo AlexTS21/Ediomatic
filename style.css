@@ -565,6 +565,7 @@ body {
 
 /*Historias pagina---------------------------------------------------------------------------------------*/
 #historias{
+    background-color: #f4f6fc;
     display: flex;
     flex-direction: column;
     align-items: center;
