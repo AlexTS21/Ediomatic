@@ -50,14 +50,12 @@
    
     }
     /*Titulos--------------------------------------------------------*/
-    .titulo-pg3, .titulo-pg5{
-        padding-bottom: 5vh;
+    .titulo-t1{
+        padding-top: 60px;
+        align-items: baseline;
+        text-align: start;
+        width: 100%;
     }
-    
-    .titulo-pg2{
-        padding-bottom: 5VH;
-    }
-
     /*Inicio*/
 
     .cont-pg1{
@@ -132,20 +130,18 @@
         display: flex;
         flex-direction: column;
     }
-    .titulo-pg5{
-        align-items: center;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
+
     .cont-pgp{
         height: 100%;
         padding-bottom: 20px;
     }
 
+    #nosotros-a{
+        padding: 0;
+    }
+
     .cont-plc{
-        padding: 50px;
+        padding: 2%;
     }
 
     .cont-plcS{ 
