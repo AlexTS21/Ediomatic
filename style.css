@@ -469,7 +469,7 @@ body {
 }
 
 #li-pg > li {
-    margin-bottom: 10px; /* Espacio debajo de cada elemento */
+    margin-bottom: 10px;
 }
 
 .cont-agen{
@@ -562,6 +562,76 @@ body {
 .btn-int:hover{
     transform: scale(1.2);
 }
+
+/*Individual presencial pagina---------------------------------------------------------------------------*/
+
+#individual_presen{
+    padding: 0;
+    background-color: #19d59e;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left_ip{
+    width: 70%;
+    height: 100%;
+}
+
+#title_ip{
+    padding-top: 60px;
+    background-color: #fff;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
+    width: 60%;
+    height: 20vh;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 30%;
+    padding-left: 20px;
+}
+
+#content_ip{
+    margin-top: 20px;
+    color: #1d1d1d;
+    padding-left: 5%;
+}
+
+#li-pg_ip{
+    width: 90%;
+    padding-left: 5%;
+}
+
+
+#li-pg_ip > li {
+    margin-bottom: 10px;
+}
+
+#btn-agendar-pre{
+    background-color: #3a8aff;
+    height: auto;
+}
+
+#right_ip{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+
+
+.video-container {
+    width: 100%;
+    overflow: hidden;
+}
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 
 /*Historias pagina---------------------------------------------------------------------------------------*/
 #historias{
