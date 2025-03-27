@@ -389,7 +389,7 @@ body {
 }
 
 
-.idioma-pg3, .modalidad-pg4 {
+.idioma-pg3{
     width: 30%;
     min-width: 280px;
     display: flex;
@@ -444,6 +444,13 @@ body {
     width: 100%;
 }
 
+.modalidad-pg4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .btn-pg4{
     width: 200px;
     height: 10vh;
@@ -474,7 +481,7 @@ body {
     margin-bottom: 10vh;
 }
 
-#inonl-pg4{
+#inonl-pg4, #inpre-pg4, #grup-pg4{
     width: 100%;
     height: auto;
 }
@@ -518,7 +525,7 @@ body {
 }
 
 /*PLANES DISPONIBLES ONLINE INDIVIDUAL------------------------------------------------------------------*/
-#panles-online{
+#panles-online, #panles-presencial{
     color: #1d1d1d;
     display: flex;
     flex-direction: column;

@@ -147,7 +147,7 @@
     .cont-plcS{ 
         display: flex;
         align-items: center;
-        justify-content: centerx;
+        justify-content: center;
         padding: 0;
     }
     
