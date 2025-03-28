@@ -67,6 +67,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+//Para el formulario de grupos 
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("btn-agendar").addEventListener("click", function () {
+        window.location.href = "formulario.html";
+    });
+});
+
+
+
 //Carrusel historias
 document.addEventListener("DOMContentLoaded", () => {
   const track = document.querySelector(".carousel-track");

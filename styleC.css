@@ -265,4 +265,17 @@
     .carousel-container{
         margin-top: 20px;
     }
+
+    /*Formulario-----------------------*/
+    #formulario-agendar-p {
+        height: inherit;
+        flex-grow: 1;
+    }
+    #formulario-agendar-p > section{
+        margin-top: 18%;
+        margin-bottom: 18%;
+        padding: 20px;
+        width: 330px;
+        height: 590px;
+    }
 }   
