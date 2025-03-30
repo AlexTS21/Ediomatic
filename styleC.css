@@ -2,7 +2,7 @@
     .container{
         height: 100%;
         overflow-y:scroll;
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y ;
 
     }
     .menu {
@@ -280,6 +280,17 @@
         margin-top: 20px;
     }
 
+    /*Telec-----------------*/
+    table {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 14px;
+        font-size: 10px;
+    }
+
     /*Formulario-----------------------*/
     #formulario-agendar-p {
         height: inherit;
@@ -292,4 +303,6 @@
         width: 330px;
         height: 590px;
     }
+
+    
 }   
