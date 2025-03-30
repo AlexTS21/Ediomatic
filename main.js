@@ -56,16 +56,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-//Bruger menu
 document.addEventListener("DOMContentLoaded", function () {
-  const menuToggle = document.querySelector(".menu-toggle");
-  const menuOpciones = document.querySelector(".menu_opciones");
-
-  menuToggle.addEventListener("click", function () {
-      menuOpciones.classList.toggle("active");
+    const menuToggle = document.querySelector(".menu-toggle");
+    const menuOpciones = document.querySelector(".menu_opciones");
+    const menuItems = document.querySelectorAll(".menu_opciones a"); // Seleccionamos los enlaces del menú
+  
+    // Mostrar/ocultar menú al hacer clic en el botón de alternancia
+    menuToggle.addEventListener("click", function () {
+        menuOpciones.classList.toggle("active");
+    });
+  
+    // Ocultar menú al seleccionar una opción
+    menuItems.forEach(item => {
+        item.addEventListener("click", function () {
+            menuOpciones.classList.remove("active");
+        });
+    });
   });
-});
+  
 
 
 //Para el formulario de grupos 
