@@ -126,7 +126,7 @@
 
 
     /*Nosotos pagina------------------------------------------------*/
-    #nosotros, #grupal, #indivudual-online{
+    #nosotros, #grupal, #indivudual-online, #certificaciones{
         display: flex;
         flex-direction: column;
     }
@@ -278,6 +278,11 @@
 
     .carousel-container{
         margin-top: 20px;
+    }
+    /*Certificaiones--------------*/
+    #btn-info-cer{
+        width: 150px;
+        font-weight: 1.2rem;
     }
 
     /*Telec-----------------*/
