@@ -827,6 +827,13 @@ body {
     gap: 20;
 }
 
+#cont-telc>a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+
 /*table */
 
 table {
@@ -839,14 +846,28 @@ table {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 th, td {
     padding: 15px;
     text-align: center;
-    border: 2px solid #003366;
-    overflow: hidden; /* Blue borders between all elements */
+    border-bottom: 2px solid #003366;
+    border-left: 2px solid #003366;
+    overflow: hidden; 
 }
+
+.B1t>th, .B1t>td{
+    border-bottom: 2px solid #ffaa00;
+    border-left: 2px solid #ffaa00;;
+}
+
+.B2t>th, .B2t>td{
+    border-bottom: 2px solid #048865;
+    border-left: 2px solid #048865;
+}
+
+
 
 /* Title row with a different background */
 th[colspan="4"] {
@@ -855,7 +876,6 @@ th[colspan="4"] {
     background-color: #005bb5; /* Darker blue */
     color: white;
     font-size: 20px;
-    /* Even darker border for the title */
 }
 
 th {
@@ -870,6 +890,16 @@ tr:nth-child(even) {
 
 td {
     font-size: 16px;
+}
+
+.clk-tb{
+
+    transition: all  0.2s ease-in-out;
+}
+.clk-tb:hover{
+    color: #c50707;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 

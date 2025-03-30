@@ -282,7 +282,7 @@
 
     /*Telec-----------------*/
     table {
-        width: 90%;
+        width: 92%;
         font-size: 14px;
     }
 
@@ -290,7 +290,12 @@
         padding: 14px;
         font-size: 10px;
     }
-
+    #cont-telc>a{
+        text-align: center;
+    }
+    #cont-telc>ul{
+        text-align: center;
+    }
     /*Formulario-----------------------*/
     #formulario-agendar-p {
         height: inherit;
