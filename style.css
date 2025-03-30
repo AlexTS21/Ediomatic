@@ -462,6 +462,10 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     padding: 10px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .btn-pg4:hover{
