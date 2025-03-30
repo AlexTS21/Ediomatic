@@ -192,6 +192,18 @@
     /*Idiomas pagina_------------------------------------------------------------*/
     .image-pg3{
         margin-bottom: 10px;
+        
+    }
+    .text-pg3{
+        margin-bottom: 15px;
+    }
+    #idiomas{
+        padding-bottom: 20px;
+    }
+
+    /*Planes---------------------------------------------------------------------------*/
+    #btn-pre-pg4{
+        margin-bottom: 30px;
     }
 
     /*Grupal-------------------------------------------------------------------------------*/
@@ -256,7 +268,9 @@
 
     
     /*Historias pagina---------------------------------------------------------------*/
-
+    #historias{
+        padding-bottom: 50px;
+    }
     .carousel-item{
         font-size: 1rem;
         text-align: center;

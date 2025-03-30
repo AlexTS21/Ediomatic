@@ -81,13 +81,13 @@ document.addEventListener("DOMContentLoaded", function() {
         if (redirect) {
             setTimeout(() => {
                 window.location.href = "index.html#inicio";
-            }, 2000);
+            }, 1000);
         } else {
             // Remove message after 2 seconds
             setTimeout(() => {
                 messageBox.style.opacity = "0";
                 setTimeout(() => messageBox.remove(), 500);
-            }, 2000);
+            }, 1000);
         }
     }
 
